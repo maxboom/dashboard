@@ -1,0 +1,23 @@
+{
+    "name": "maxboom/dashboard",
+    "description": "Simple Dashboard For Your Project",
+    "license": "MIT",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "maxboom",
+            "email": "zmaxboomz@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "MaxBoom\\Dashboard\\": "/src"
+        }
+        
+    }
+}
